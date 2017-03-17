@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+  box-sizing:border-box;
+  font-family: Helvetica;
+}
+a{
+  text-decoration:none;
+}
+img{
+  border:0;
+}
+$padding:0 0.22rem;
+$list:320px,360px,365px,375px,414px;
+html{
+  @each $device in $list{
+    @media screen and(min-width:$device){
+      font-size:100 * ($device/750);
+    }
+  }
+}
+body{
+  font-size:16px;
+  background:#FAFAFA;
+  box-sizing:border-box;
+}
+//头部
+.header{
+  height:0.9rem;
+  background:#29A6DC;
+  padding:$padding;
+}

@@ -30,19 +30,41 @@ body{
   height:0.9rem;
   background:#29A6DC;
   padding:$padding;
+  display:flex;
   .header-title{
     width:100%;
     height:100%;
+    flex:1;
     display:flex;
     flex-direction:column;
+    justify-content:center;
+    align-items:center;
     h2{
       color:#fff;
       font-size:18px;
     }
     .xian{
       background:url(../images/xian.png) no-repeat center center;
-      width:18px;
-      
+      background-size:cover;
+      width:0.34rem;
+      height:0.03rem;
+    }
+    h4{
+      font-size:10px;
+      color:#A3E3FF;
+    }
+  }
+  a{
+    display:block;
+    width:0.48rem;
+    height:0.48rem;
+    background:url(../images/sou.png) no-repeat center center;
+    background-size:cover;
+    margin-top:0.2rem;
+    span{
+      font-size:18px;
+      color:#fff;
+      display:none;
     }
   }
 }

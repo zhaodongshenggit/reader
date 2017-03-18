@@ -30,4 +30,19 @@ body{
   height:0.9rem;
   background:#29A6DC;
   padding:$padding;
+  .header-title{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    h2{
+      color:#fff;
+      font-size:18px;
+    }
+    .xian{
+      background:url(../images/xian.png) no-repeat center center;
+      width:18px;
+      
+    }
+  }
 }

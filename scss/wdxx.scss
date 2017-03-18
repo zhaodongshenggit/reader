@@ -1,0 +1,225 @@
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+}
+
+$device-list:320px,360px,375px,414px,750px;
+
+html{
+	@each $device in $device-list{
+		@media screen and(min-width: $device){
+			font-size: 100*($device/750);	
+			
+		}
+	}
+
+}
+body{
+	font-size: 16px;
+}
+
+@mixin bg(){
+
+	$r:floor(random()*256);
+	$g:floor(random()*256);
+	$b:floor(random()*256);
+	$a:floor(random()*3+6)/10;
+	$color:rgba($r,$g,$b,$a);
+	background: $color;
+}
+
+
+	.head{
+		width:100%;
+		height:0.4rem;
+		background: #2BA6DC;
+	}
+
+	.wdxx{
+		width:100%;
+		height:1rem;
+		background: #2BA6DC;
+		padding:0 0.24rem;
+		display: flex;
+		align-items:center;
+		.lefts{
+			width:10%;
+			height:0.48rem;
+			.fh{
+				width:100%;
+				height:0.46rem;
+				background: url(../images/return.png)no-repeat;
+				background-position:center center;
+				background-size:0.46rem 0.46rem; 
+
+			}
+		}
+		.zhong{
+			width:80%;
+			height:1rem;
+			background: url(../images/lanx.png) no-repeat;
+			background-position:center center;
+			background-size:0.37rem 0.06rem; 
+			padding-top: 0.1rem;
+			line-height: 1rem;
+			display: flex;
+			flex-direction:column;
+			align-content:center;
+			h2{
+				width:100%;
+				text-align: center;
+				font-family: '微软雅黑';
+				font-weight: normal;	
+				font-size: 0.34rem;
+				color:#fff;	
+				line-height: 100%;
+				margin-bottom:0.1rem;
+			}
+			h3{
+				width:100%;
+				text-align: center;
+				font-family: '微软雅黑';
+				font-weight: normal;	
+				font-size: 0.14rem;
+				line-height: 100%;
+				color:#90DCFF;	
+			}
+		}
+	}
+
+
+
+
+.xxk{
+	width:100%;
+	height:1.14rem;
+	background: #FAFAFA;
+	display:flex;
+	align-items:center;
+	justify-content:center; 
+
+	.xxks{
+		width:5.74rem;
+		height:0.88rem;
+		background: #2C3744 url(../images/zong.png)no-repeat;
+		background-position:center center;
+		background-size:0.05rem 0.61rem; 
+		border-radius:0.43rem;
+		padding-top: 0.02rem;
+		position: relative;
+		display: flex;
+		justify-content:space-between;
+
+	}
+		.span1{
+			color:#fff;
+			text-align: center;
+			font-size: 14px;
+			font-family: '宋体';
+			/*display: block;*/
+			position: absolute;
+			left:0.64rem;
+			top:0.3rem;
+			display: none;
+
+		}
+		.span2{
+			color:#fff;
+			text-align: center;
+			font-size: 0.14rem;
+			font-family: '宋体';
+			/*display: block;*/
+			position: absolute;
+			right:0.6rem;
+			top:0.3rem;
+			/*display: none;*/
+
+		}
+		.xxks .xxkl{
+			width:2.41rem;
+			height:0.86rem;
+			background: url(../images/btbg.png)no-repeat;
+			background-position:center center;
+			background-size: 2.41rem 0.98rem;
+			margin-left: -0.05rem;
+			line-height:0.74rem;
+			text-align: center;
+			.spanl{
+				font-size: 0.14rem;
+				font-family: '宋体';
+				color: #fff;
+			}
+		}
+		.xxks .xxkr{
+			width:2.41rem;
+			height:0.86rem;
+			background: url(../images/btbg.png)no-repeat;
+			background-position:center center;
+			background-size: 2.41rem 0.98rem;
+			margin-right: -0.08rem;
+			line-height:0.74rem;
+			text-align: center;
+			display: none;
+			.spanls{
+				font-size: 0.14rem;
+				font-family: '宋体';
+				color: #fff;
+			}
+
+		}
+}
+
+
+
+.lb{
+	width:100%;
+	height:6.17rem;
+	background: #FAFAFA;
+	padding-left:0.24rem;
+	padding-right:0.24rem;
+	box-sizing:border-box;
+	.lbk{
+		width:100%;
+		height:6.17rem;
+		background: #fff;
+		box-shadow:0 0 5px 5px #E3E3E3;
+		border-radius: 5px;
+	}
+	.lbk .lbs{
+		width:100%;
+		height:0.88rem;
+		border-bottom: 0.01rem dashed  #999999;
+		background: url(../images/sex.png)no-repeat;
+		background-size:0.34rem 0.34rem; 
+		background-position: 0.15rem center ;
+		padding-left: 0.64rem;
+		line-height: 0.88rem;
+		display: flex;
+		justify-content:space-between;
+
+	}
+	.lbk .lbs span{
+		/*width:80%;*/
+		height:0.88rem;
+		font-family: '宋体';
+		font-size:0.28rem;
+		color:#363636;
+	}
+	.lbk .lbs .jt{
+		width:0.74rem;
+		height:0.88rem;
+		background: url(../images/jt.png)no-repeat;
+		background-position: center center;
+		background-size: 0.12rem 0.2rem;
+	}
+}
+
+
+

@@ -126,20 +126,37 @@ body{
 			/*display: block;*/
 			position: absolute;
 			left:0.64rem;
-			top:0.3rem;
+			top:0.2rem;
 			display: none;
 
 		}
+		.ps1s{
+				font-size: 0.12rem;
+				color:#98CEE5;
+				position: absolute;
+				left:0.4rem;
+				top:0.5rem;
+				display: none;
+
+		}	
 		.span2{
 			color:#fff;
 			text-align: center;
 			font-size: 0.14rem;
 			font-family: '宋体';
-			/*display: block;*/
 			position: absolute;
 			right:0.6rem;
-			top:0.3rem;
+			top:0.2rem;
 			/*display: none;*/
+
+		}
+		.ps2s{
+				font-size: 0.12rem;
+				color:#98CEE5;	
+				position: absolute;
+				right:0.3rem;
+				top:0.5rem;
+				/*display: none;*/
 
 		}
 		.xxks .xxkl{
@@ -149,12 +166,18 @@ body{
 			background-position:center center;
 			background-size: 2.41rem 0.98rem;
 			margin-left: -0.05rem;
-			line-height:0.74rem;
+			padding-top: 0.15rem;
 			text-align: center;
+			/*display: none;*/
 			.spanl{
-				font-size: 0.14rem;
+				font-size: 0.24rem;
 				font-family: '宋体';
 				color: #fff;
+				margin-top: 0.15rem;
+			}
+			.ps1{
+				font-size: 0.12rem;
+				color:#98CEE5;
 			}
 		}
 		.xxks .xxkr{
@@ -164,13 +187,17 @@ body{
 			background-position:center center;
 			background-size: 2.41rem 0.98rem;
 			margin-right: -0.08rem;
-			line-height:0.74rem;
+			padding-top: 0.15rem;
 			text-align: center;
 			display: none;
 			.spanls{
 				font-size: 0.14rem;
 				font-family: '宋体';
 				color: #fff;
+			}
+			.ps2{
+				font-size: 0.12rem;
+				color:#98CEE5;
 			}
 
 		}
@@ -200,17 +227,26 @@ body{
 		background-size:0.34rem 0.34rem; 
 		background-position: 0.15rem center ;
 		padding-left: 0.64rem;
-		line-height: 0.88rem;
+		padding-top:0.18rem; 
+		position: relative;
 		display: flex;
-		justify-content:space-between;
+		flex-direction:column;
+
 
 	}
-	.lbk .lbs span{
-		/*width:80%;*/
-		height:0.88rem;
+	.lbk .lbs .span{
+		/*width:100%;*/
+		height:0.28rem;
 		font-family: '宋体';
 		font-size:0.28rem;
 		color:#363636;
+		display: block;
+	}
+	.lbk .lbs .sp{
+		font-family: '宋体';
+		font-size:0.12rem;
+		color:#B3B3B3;
+		display: block;
 	}
 	.lbk .lbs .jt{
 		width:0.74rem;
@@ -218,6 +254,9 @@ body{
 		background: url(../images/jt.png)no-repeat;
 		background-position: center center;
 		background-size: 0.12rem 0.2rem;
+		position: absolute;
+		right:0;
+		top:0;
 	}
 }
 

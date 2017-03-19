@@ -1,8 +1,9 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: Helvetica;
+  font-family: Helvetica,"苹方 常规";
   box-sizing: border-box; }
 
 a {
@@ -218,8 +219,13 @@ section .colthing-con {
           align-items: center; }
           .sort .sort-title .sort-con .syn h3 span {
             color: #BDDBE8;
-            font-size: 10px;
-            font-weight: normal; }
+            font-size: 12px;
+            font-weight: normal;
+            -webkit-line-clamp: 1;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+            overflow: hidden; }
       .sort .sort-title .sort-con .xian {
         width: 5px;
         height: 100%;
@@ -238,8 +244,13 @@ section .colthing-con {
           align-items: center; }
           .sort .sort-title .sort-con .time h3 span {
             color: #BDDBE8;
-            font-size: 10px;
-            font-weight: normal; }
+            font-size: 12px;
+            font-weight: normal;
+            -webkit-line-clamp: 1;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+            overflow: hidden; }
   .sort .checked {
     width: 100%;
     height: 3rem;

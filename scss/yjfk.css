@@ -115,3 +115,30 @@ body {
     font-weight: normal;
     font-family: '宋体';
     color: #ACACAC; }
+
+.tj {
+  width: 100%;
+  height: 0.74rem; }
+  .tj .tjs {
+    width: 6.08rem;
+    height: 0.74rem;
+    border-radius: 0.37rem;
+    background: #29DD8B;
+    margin: 0.56rem auto;
+    line-height: 0.74rem;
+    padding-left: 0.34rem;
+    padding-right: 0.34rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .tj .tjs span {
+    width: 80%;
+    height: 0.74rem;
+    text-align: center;
+    font-family: '微软雅黑';
+    color: #ffffff; }
+  .tj .tjs .yuan {
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #fff;
+    border-radius: 50%; }

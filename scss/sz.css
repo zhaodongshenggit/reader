@@ -1,0 +1,194 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+body {
+  font-size: 16px; }
+
+.head {
+  width: 100%;
+  height: 0.4rem;
+  background: #2BA6DC; }
+
+.wdxx {
+  width: 100%;
+  height: 1rem;
+  background: #2BA6DC;
+  padding: 0 0.24rem;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center; }
+  .wdxx .lefts {
+    width: 10%;
+    height: 0.48rem; }
+    .wdxx .lefts .fh {
+      width: 100%;
+      height: 0.46rem;
+      background: url(../images/return.png) no-repeat;
+      background-position: center center;
+      background-size: 0.46rem 0.46rem; }
+  .wdxx .rights {
+    width: 10%;
+    height: 0.52rem; }
+    .wdxx .rights .fh {
+      width: 100%;
+      height: 0.52rem;
+      background: url(../images/xin.png) no-repeat;
+      background-position: center center;
+      background-size: 0.52rem 0.52rem; }
+  .wdxx .zhong {
+    width: 80%;
+    height: 1rem;
+    background: url(../images/lanx.png) no-repeat;
+    background-position: center center;
+    background-size: 0.37rem 0.06rem;
+    padding-top: 0.1rem;
+    line-height: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+    .wdxx .zhong h2 {
+      width: 100%;
+      text-align: center;
+      font-family: '微软雅黑';
+      font-weight: normal;
+      font-size: 0.34rem;
+      color: #fff;
+      line-height: 100%;
+      margin-bottom: 0.1rem; }
+    .wdxx .zhong h3 {
+      width: 100%;
+      text-align: center;
+      font-family: '微软雅黑';
+      font-weight: normal;
+      font-size: 0.14rem;
+      line-height: 100%;
+      color: #90DCFF; }
+
+.lb {
+  width: 100%;
+  height: 3.58rem;
+  background: #FAFAFA;
+  padding-left: 0.24rem;
+  padding-right: 0.24rem;
+  box-sizing: border-box; }
+  .lb .lbk {
+    width: 100%;
+    height: 3.58rem;
+    background: #fff;
+    box-shadow: 0 0 0.1rem 0.1rem #EFEFEF;
+    border-radius: 5px; }
+  .lb .lbk .lbs {
+    width: 100%;
+    height: 0.88rem;
+    border-bottom: 0.01rem dashed  #999999;
+    padding-left: 0.64rem;
+    padding-top: 0.18rem;
+    position: relative;
+    display: flex;
+    /*flex-direction:column;*/ }
+  .lb .lbs .kg {
+    width: 0.92rem;
+    height: 0.44rem;
+    background: url(../images/button.png) no-repeat;
+    background-position: center center;
+    background-size: 0.92rem 0.44rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -0.22rem; }
+  .lb .lbk .lbs .span {
+    height: 0.28rem;
+    font-family: '宋体';
+    font-size: 0.28rem;
+    color: #363636;
+    display: block; }
+  .lb .lbk .lbs .sp {
+    font-family: '宋体';
+    font-size: 0.12rem;
+    color: #B3B3B3;
+    display: block; }
+  .lb .lbk .lbs .jt {
+    width: 0.8rem;
+    height: 0.88rem;
+    background: url(../images/jt.png) no-repeat;
+    background-position: 0.5rem center;
+    background-size: 0.12rem 0.2rem;
+    position: absolute;
+    line-height: 0.88rem;
+    right: 0;
+    top: 0; }
+    .lb .lbk .lbs .jt p {
+      font-size: 0.2rem;
+      font-family: '微软雅黑'; }
+  .lb .lbk .s1 {
+    background: url(../images/tixing.png) no-repeat;
+    background-size: 0.34rem 0.34rem;
+    background-position: 0.15rem center; }
+  .lb .lbk .s2 {
+    background: url(../images/hover.png) no-repeat;
+    background-size: 0.34rem 0.34rem;
+    background-position: 0.15rem center; }
+  .lb .lbk .s3 {
+    background: url(../images/qi.png) no-repeat;
+    background-size: 0.34rem 0.34rem;
+    background-position: 0.15rem center; }
+  .lb .lbk .s4 {
+    background: url(../images/clear.png) no-repeat;
+    background-size: 0.34rem 0.34rem;
+    background-position: 0.15rem center; }
+
+.tj {
+  width: 100%;
+  height: 0.74rem;
+  position: fixed;
+  bottom: 1.54rem;
+  left: 0; }
+  .tj .tjs {
+    width: 5.68rem;
+    height: 0.72rem;
+    border-radius: 0.37rem;
+    background: #29DD8B;
+    margin: 0.56rem auto;
+    line-height: 0.74rem;
+    padding-left: 0.34rem;
+    padding-right: 0.34rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .tj .tjs span {
+    width: 80%;
+    height: 0.74rem;
+    text-align: center;
+    font-family: '微软雅黑';
+    color: #ffffff; }
+  .tj .tjs .yuan {
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #fff;
+    border-radius: 50%; }

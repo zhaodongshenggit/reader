@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Helvetica;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 365px) {
+  html {
+    font-size: 48.66667px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+body {
+  font-size: 16px;
+  background: #FAFAFA;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; }
+
+.header {
+  height: 0.9rem;
+  background: #29A6DC;
+  padding: 0 0.22rem;
+  display: flex; }
+  .header a {
+    display: block;
+    width: 0.48rem;
+    height: 0.48rem;
+    margin-top: 0.24rem; }
+    .header a span {
+      font-size: 18px;
+      color: #fff;
+      display: none; }
+    .header a:nth-child(1) {
+      background: url(../images/return.png) no-repeat center center;
+      background-size: cover; }
+
+.luck {
+  width: 100%;
+  height: 5.2rem;
+  padding: 0.12rem 0.3rem;
+  display: flex; }
+  .luck .luck-con {
+    flex: 0 0 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ddd; }
+    .luck .luck-con .luck-one {
+      width: 100%;
+      height: 3.26rem;
+      margin-bottom: 0.15rem;
+      display: flex;
+      justify-content: space-around; }
+      .luck .luck-con .luck-one .luck-img {
+        flex: 0 0 50%;
+        height: 100%;
+        padding: 0.56rem 0.4rem; }
+        .luck .luck-con .luck-one .luck-img .img {
+          width: 100%;
+          height: 100%;
+          background: url(../images/yf.png) no-repeat center center;
+          background-size: cover; }
+      .luck .luck-con .luck-one .luck-title {
+        flex: 0 0 50%;
+        padding-top: 0.36rem;
+        padding-right: 0.2rem; }
+        .luck .luck-con .luck-one .luck-title .title {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-content: space-around; }
+          .luck .luck-con .luck-one .luck-title .title h2 {
+            font-size: 14px;
+            color: #333; }
+          .luck .luck-con .luck-one .luck-title .title h4 {
+            font-size: 12px;
+            color: #333; }
+            .luck .luck-con .luck-one .luck-title .title h4 span {
+              font-size: 10px;
+              color: #333;
+              font-weight: normal; }
+          .luck .luck-con .luck-one .luck-title .title span {
+            font-size: 10px;
+            color: #595959; }
+          .luck .luck-con .luck-one .luck-title .title .xingji {
+            width: 1.5rem;
+            height: 0.26rem;
+            background: url(../images/wxj.png) no-repeat center center;
+            background-size: cover; }
+          .luck .luck-con .luck-one .luck-title .title p {
+            font-size: 10px;
+            color: #C0C0C0; }
+          .luck .luck-con .luck-one .luck-title .title .fenlei {
+            width: 100%;
+            height: 0.36rem;
+            display: flex;
+            justify-content: space-around; }
+            .luck .luck-con .luck-one .luck-title .title .fenlei span {
+              flex: 0 0 30%;
+              height: 100%;
+              background: #67E479;
+              border-radius: 0.18rem;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+    .luck .luck-con .luck-two {
+      width: 100%;
+      height: 0.7rem;
+      display: flex;
+      justify-content: space-around; }
+      .luck .luck-con .luck-two .two {
+        flex: 0 0 40%;
+        height: 100%;
+        background: #fff;
+        box-shadow: 0 0 10px #eee;
+        border-radius: 0.35rem;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .luck .luck-con .luck-two .two span {
+          display: block;
+          width: 0.5rem;
+          height: 0.54rem;
+          background: url(../images/books.png) no-repeat center center;
+          background-size: cover; }
+        .luck .luck-con .luck-two .two h3 {
+          font-size: 12px;
+          color: #2D2D2D; }
+      .luck .luck-con .luck-two .right span {
+        background: url(../images/wjj.png) no-repeat center center;
+        background-size: cover; }
+    .luck .luck-con .luck-three {
+      width: 100%;
+      height: 0.7rem;
+      display: flex;
+      justify-content: space-around;
+      margin: 0.06rem 0; }
+      .luck .luck-con .luck-three .reader {
+        flex: 0 0 50%;
+        height: 100%;
+        background: #29A6DC;
+        border-radius: 0.35rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        .luck .luck-con .luck-three .reader span {
+          display: block;
+          width: 0.08rem;
+          height: 0.08rem;
+          background: #fff;
+          border-radius: 50%; }
+
+.new-con {
+  width: 100%;
+  height: 5.6rem;
+  padding: 0 0.24rem; }
+  .new-con .new-title {
+    width: 100%;
+    height: 1.28rem;
+    padding: 0.36rem 0 0.3rem;
+    display: flex; }
+    .new-con .new-title .new {
+      width: 0.5rem;
+      height: 0.66rem;
+      background: url(../images/shup.png) no-repeat center center;
+      background-size: cover; }
+    .new-con .new-title h2 {
+      font-size: 15px;
+      color: #333;
+      display: flex;
+      flex-direction: column; }
+      .new-con .new-title h2 span {
+        font-size: 12px;
+        color: #252525; }
+  .new-con .new-list {
+    width: 100%;
+    height: 1.56rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #eee;
+    display: flex;
+    margin-bottom: 0.2rem; }
+    .new-con .new-list .new-img {
+      width: 1.28rem;
+      height: 100%;
+      padding: 0.24rem 0.4rem 0.5rem 0.2rem; }
+      .new-con .new-list .new-img .img {
+        width: 100%;
+        height: 100%;
+        background: url(../images/s3.png) no-repeat center center;
+        background-size: cover;
+        border-radius: 50%; }
+    .new-con .new-list .new-right {
+      width: 80%;
+      height: 100%; }
+      .new-con .new-list .new-right p {
+        font-size: 11px;
+        color: #666;
+        padding: 0.28rem 0 0.16rem;
+        border-bottom: 1px dashed #ddd; }
+      .new-con .new-list .new-right .new-bt {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between; }
+        .new-con .new-list .new-right .new-bt .bt-left {
+          flex: 0 0 25%;
+          height: 100%;
+          display: flex;
+          align-items: center; }
+          .new-con .new-list .new-right .new-bt .bt-left span:nth-child(1) {
+            display: block;
+            width: 0.38rem;
+            height: 0.38rem;
+            background: url(../images/wt.png) no-repeat center center;
+            background-size: cover; }
+          .new-con .new-list .new-right .new-bt .bt-left span:nth-child(2) {
+            font-size: 10px;
+            color: #A4A1A1; }
+        .new-con .new-list .new-right .new-bt .bt span:nth-child(1) {
+          display: block;
+          width: 0.38rem;
+          height: 0.38rem;
+          background: url(../images/sc.png) no-repeat center center;
+          background-size: cover; }
+  .new-con .luck-three {
+    width: 100%;
+    height: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0.06rem 0; }
+    .new-con .luck-three .reader {
+      flex: 0 0 50%;
+      height: 100%;
+      background: #29A6DC;
+      border-radius: 0.35rem;
+      display: flex;
+      color: #fff;
+      justify-content: space-around;
+      align-items: center; }
+      .new-con .luck-three .reader span {
+        display: block;
+        width: 0.08rem;
+        height: 0.08rem;
+        background: #fff;
+        border-radius: 50%; }
+
+.list-me {
+  width: 100%;
+  height: 2.84rem;
+  padding: 0 0.24rem; }
+  .list-me .new-title {
+    width: 100%;
+    height: 1.28rem;
+    padding: 0.36rem 0 0.3rem;
+    display: flex; }
+    .list-me .new-title .new {
+      width: 0.5rem;
+      height: 0.66rem;
+      background: url(../images/shuq.png) no-repeat center center;
+      background-size: cover; }
+    .list-me .new-title h2 {
+      font-size: 15px;
+      color: #333;
+      display: flex;
+      flex-direction: column; }
+      .list-me .new-title h2 span {
+        font-size: 12px;
+        color: #252525; }
+  .list-me .list-add {
+    width: 100%;
+    height: 0.8rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .list-me .list-add span {
+      display: block;
+      width: 0.4rem;
+      height: 0.4rem;
+      background: url(../images/add.png) no-repeat center center;
+      background-size: cover; }
+    .list-me .list-add h3 {
+      font-size: 12px;
+      color: #2D2D2D; }

@@ -1,0 +1,355 @@
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+  font-family:Helvetica;
+  box-sizing:border-box;
+
+}
+a{
+  text-decoration:none;
+}
+img{
+  border:0;
+}
+$padding:0 0.22rem;
+$list:320px,360px,365px,375px,414px;
+html{
+  @each $device in $list{
+    @media screen and(min-width:$device){
+      font-size:100 * ($device/750);
+    }
+  }
+}
+body{
+  font-size:16px;
+  background:#FAFAFA;
+  box-sizing:border-box;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+//头部
+.header{
+  height:0.9rem;
+  background:#29A6DC;
+  padding:$padding;
+  display:flex;
+  a{
+    display:block;
+    width:0.48rem;
+    height:0.48rem;
+    margin-top:0.24rem;
+    span{
+      font-size:18px;
+      color:#fff;
+      display:none;
+    }
+    &:nth-child(1){
+      background:url(../images/return.png) no-repeat center center;
+      background-size:cover;
+    }
+  }
+}
+//缘分
+.luck{
+  width:100%;
+  height:5.2rem;
+  padding:0.12rem 0.3rem;
+  display:flex;
+  .luck-con{
+    flex:0 0 100%;
+    height:100%;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #ddd;
+    .luck-one{
+      width:100%;
+      height:3.26rem;
+      margin-bottom:0.15rem;
+      display:flex;
+      justify-content:space-around;
+      .luck-img{
+        flex:0 0 50%;
+        height:100%;
+        padding:0.56rem 0.4rem;
+        .img{
+          width:100%;
+          height:100%;
+          background:url(../images/yf.png) no-repeat center center;
+          background-size:cover;
+        }
+      }
+      .luck-title{
+        flex:0 0 50%;
+        padding-top:0.36rem;
+        padding-right:0.2rem;
+        .title{
+          width:100%;
+          height:100%;
+          display:flex;
+          flex-direction:column;
+          align-content:space-around;
+          h2{
+            font-size:14px;
+            color:#333;
+          }
+          h4{
+            font-size:12px;
+            color:#333;
+            span{
+              font-size:10px;
+              color:#333;
+              font-weight:normal;
+            }
+          }
+          span{
+            font-size:10px;
+            color:#595959;
+          }
+          .xingji{
+            width:1.5rem;
+            height:0.26rem;
+            background:url(../images/wxj.png) no-repeat center center;
+            background-size:cover;
+          }
+          p{
+            font-size:10px;
+            color:#C0C0C0;
+          }
+          .fenlei{
+            width:100%;
+            height:0.36rem;
+            display:flex;
+            justify-content:space-around;
+            span{
+              flex:0 0 30%;
+              height:100%;
+              background:#67E479;
+              border-radius:0.18rem;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+            }
+          }
+        }
+      }
+    }
+    .luck-two{
+      width:100%;
+      height:0.7rem;
+      display:flex;
+      justify-content:space-around;
+      .two{
+        flex:0 0 40%;
+        height:100%;
+        background:#fff;
+        box-shadow:0 0 10px #eee;
+        border-radius:0.35rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        span{
+          display:block;
+          width:0.5rem;
+          height:0.54rem;
+          background:url(../images/books.png) no-repeat center center;
+          background-size:cover;
+        }
+        h3{
+          font-size:12px;
+          color:#2D2D2D;
+        }
+      }
+      .right span{
+        background:url(../images/wjj.png) no-repeat center center;
+        background-size:cover;
+      }
+    }
+    .luck-three{
+      width:100%;
+      height:0.7rem;
+      display:flex;
+      justify-content:space-around;
+      margin:0.06rem 0;
+      .reader{
+        flex:0 0 50%;
+        height:100%;
+        background:#29A6DC;
+        border-radius:0.35rem;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        span{
+          display:block;
+          width:0.08rem;
+          height:0.08rem;
+          background:#fff;
+          border-radius:50%;
+        }
+      }
+    }
+  }
+}
+
+//最新书评
+.new-con{
+  width:100%;
+  height:5.6rem;
+  padding:0 0.24rem;
+  .new-title{
+    width:100%;
+    height:1.28rem;
+    padding:0.36rem 0 0.3rem;
+    display:flex;
+    .new{
+      width:0.5rem;
+      height:0.66rem;
+      background:url(../images/shup.png) no-repeat center center;
+      background-size:cover;
+    }
+    h2{
+      font-size:15px;
+      color:#333;
+      display:flex;
+      flex-direction:column;
+      span{
+        font-size:12px;
+        color:#252525;
+      }
+    }
+  }
+  .new-list{
+    width:100%;
+    height:1.56rem;
+    background:#fff;
+    border-radius:5px;
+    box-shadow:0 0 5px #eee;
+    display:flex;
+    margin-bottom:0.2rem;
+    .new-img{
+      width:1.28rem;
+      height:100%;
+      padding:0.24rem 0.4rem 0.5rem 0.2rem;
+      .img{
+        width:100%;
+        height:100%;
+        background:url(../images/s3.png) no-repeat center center;
+        background-size:cover;
+        border-radius:50%;
+      }
+    }
+    .new-right{
+      width:80%;
+      height:100%;
+      p{
+        font-size:11px;
+        color:#666;
+        padding:0.28rem 0 0.16rem;
+        border-bottom:1px dashed #ddd;
+      }
+      .new-bt{
+        width:100%;
+        display:flex;
+        align-items:stretch;
+        justify-content:space-between;
+        .bt-left{
+          flex:0 0 25%;
+          height:100%;
+          display:flex;
+          align-items:center;
+          span:nth-child(1){
+            display:block;
+            width:0.38rem;
+            height:0.38rem;
+            background:url(../images/wt.png) no-repeat center center;
+            background-size:cover;
+          }
+          span:nth-child(2){
+            font-size:10px;
+            color:#A4A1A1;
+          }
+        }
+        .bt span:nth-child(1){
+          display:block;
+          width:0.38rem;
+          height:0.38rem;
+          background:url(../images/sc.png) no-repeat center center;
+          background-size:cover;
+        }
+      }
+    }
+  }
+  .luck-three{
+    width:100%;
+    height:0.7rem;
+    display:flex;
+    justify-content:space-around;
+    margin:0.06rem 0;
+    .reader{
+      flex:0 0 50%;
+      height:100%;
+      background:#29A6DC;
+      border-radius:0.35rem;
+      display:flex;
+      color:#fff;
+      justify-content:space-around;
+      align-items:center;
+      span{
+        display:block;
+        width:0.08rem;
+        height:0.08rem;
+        background:#fff;
+        border-radius:50%;
+      }
+    }
+  }
+}
+
+//添加书签
+.list-me{
+  width:100%;
+  height:2.84rem;
+  padding:0 0.24rem;
+  .new-title{
+    width:100%;
+    height:1.28rem;
+    padding:0.36rem 0 0.3rem;
+    display:flex;
+    .new{
+      width:0.5rem;
+      height:0.66rem;
+      background:url(../images/shuq.png) no-repeat center center;
+      background-size:cover;
+    }
+    h2{
+      font-size:15px;
+      color:#333;
+      display:flex;
+      flex-direction:column;
+      span{
+        font-size:12px;
+        color:#252525;
+      }
+    }
+  }
+  .list-add{
+    width:100%;
+    height:0.8rem;
+    background:#fff;
+    border-radius:5px;
+    box-shadow:0 0 5px #eee;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    span{
+      display:block;
+      width:0.4rem;
+      height:0.4rem;
+      background:url(../images/add.png) no-repeat center center;
+      background-size:cover;
+    }
+    h3{
+      font-size:12px;
+      color:#2D2D2D;
+    }
+  }
+}

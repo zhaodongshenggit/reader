@@ -143,5 +143,17 @@ body{
 .girl{
   width:100%;
   height:3.32rem;
-  
+  .girl-title{
+    width:100%;
+    height:0.74rem;
+    li{
+      width:100%;
+      height:100%;
+      list-style: decimal;
+      h2{
+        font-size:14px;
+        color:#29A6DC;
+      }
+    }
+  }
 }

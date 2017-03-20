@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 365px) {
+  html {
+    font-size: 48.66667px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+body {
+  background: #ffe7a7; }
+
+div.toubu {
+  display: flex;
+  margin-bottom: 0.22rem;
+  margin-top: 0.2rem; }
+  div.toubu .dsx {
+    width: 0.2rem;
+    height: 0.01rem;
+    border-bottom: 0.01rem solid black;
+    margin-top: 0.14rem;
+    margin-left: 0.22rem;
+    margin-right: 0.1rem; }
+  div.toubu .zuozhe {
+    color: #3a3730;
+    font-size: 0.16rem; }
+  div.toubu .csx {
+    width: 70%;
+    height: 0.01rem;
+    border-bottom: 0.01rem solid black;
+    margin-top: 0.14rem;
+    margin-left: 0.1rem; }
+
+h1 {
+  font-size: 14px;
+  color: #454138;
+  margin-left: 0.35rem;
+  margin-bottom: 0.26rem; }
+
+p {
+  font-size: 12px;
+  color: #3a3730;
+  margin-bottom: 0.44rem;
+  margin-left: 0.5rem;
+  margin-right: 0.85rem;
+  text-indent: 2em; }
+
+.jiewei {
+  text-indent: 0;
+  color: #363028; }
+  .jiewei span:nth-child(1) {
+    display: block;
+    float: left; }
+  .jiewei span:nth-child(2) {
+    display: block;
+    float: right; }

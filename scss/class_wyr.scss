@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+  font-family:Helvetica,"苹方 常规";
+  box-sizing:border-box;
+
+}
+a{
+  text-decoration:none;
+}
+img{
+  border:0;
+}
+$padding:0 0.22rem;
+$list:320px,360px,365px,375px,414px;
+html{
+  @each $device in $list{
+    @media screen and(min-width:$device){
+      font-size:100 * ($device/750);
+    }
+  }
+}
+body{
+  font-size:16px;
+  background:#FAFAFA;
+  box-sizing:border-box;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+//头部
+.header{
+  height:0.9rem;
+  background:#29A6DC;
+  padding:$padding;
+  display:flex;
+  justify-content:space-around;
+  a{
+    display:block;
+    width:0.48rem;
+    height:0.48rem;
+    margin-top:0.24rem;
+    background:url(../images/sou.png) no-repeat center center;
+    background-size:cover;
+    span{
+      font-size:18px;
+      color:#fff;
+      display:none;
+    }
+  }
+  .header-search{
+    flex:1;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:0.86rem;
+    background:#2A3441;
+    border-radius:0.43rem;
+    margin:0.02rem 0;
+    .syn{
+      width:1.68rem;
+      height:0.7rem;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+      h3{
+        color:#fff;
+        font-size:12px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        span{
+          color:#BDDBE8;
+        }
+      }
+    }
+    .syn.block{
+      background:#29A6DC;
+      border-radius:0.35rem;
+      border:1px solid #fff;
+    }
+    .xian{
+      width:1px;
+      height:80%;
+      background:url(../images/zong.png) no-repeat center;
+      background-size:cover;
+    }
+    .circle{
+      display:flex;
+      opacity:0;
+      span{
+        display:block;
+        width:0.08rem;
+        height:0.08rem;
+        background:#fff;
+        border-radius:50%;
+      }
+    }
+    .c1{
+      position:absolute;
+      top:20%;
+      margin-top:0.04rem;
+      left:10%;
+    }
+    .c2{
+      position:absolute;
+      top:20%;
+      margin-top:0.04rem;
+      right:10%;
+    }
+    .circle.opacity{
+      opacity:1;
+    }
+  }
+}
+
+//标题
+.class-title{
+  width:100%;
+  height:0.6rem;
+  background:#ACE1F8;
+  box-shadow:0 2px 5px #BDCDD4;
+  display:flex;
+  align-items:center;
+  padding:0 0.22rem;
+  .title-img{
+    display:block;
+    width:0.4rem;
+    height:0.34rem;
+    background:url(../images/wl.png) no-repeat center center;
+    background-size:cover;
+  }
+  h2{
+    font-size:12px;
+    color:#666;
+    font-weight:normal;
+    padding:0 0.15rem;
+  }
+}
+
+//女生专区
+.girl{
+  width:100%;
+  height:3.32rem;
+  .girl-title{
+    width:100%;
+    height:0.74rem;
+    li{
+      width:100%;
+      height:100%;
+      list-style: decimal;
+      h2{
+        font-size:14px;
+        color:#29A6DC;
+      }
+    }
+  }
+}

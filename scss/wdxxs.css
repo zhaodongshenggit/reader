@@ -97,7 +97,6 @@ body {
     padding-top: 0.02rem;
     position: relative;
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between; }
   .xxk .span1 {
     color: #fff;
@@ -124,14 +123,14 @@ body {
     position: absolute;
     right: 0.6rem;
     top: 0.2rem;
-    display: none; }
+    /*display: none;*/ }
   .xxk .ps2s {
     font-size: 0.12rem;
     color: #98CEE5;
     position: absolute;
     right: 0.3rem;
     top: 0.5rem;
-    display: none; }
+    /*display: none;*/ }
   .xxk .xxks .xxkl {
     width: 2.41rem;
     height: 0.86rem;
@@ -141,7 +140,8 @@ body {
     margin-left: -0.05rem;
     padding-top: 0.15rem;
     text-align: center;
-    display: none; }
+    opacity: 0;
+    /*display: none;*/ }
     .xxk .xxks .xxkl .spanl {
       font-size: 0.24rem;
       font-family: '宋体';
@@ -163,10 +163,12 @@ body {
     .xxk .xxks .xxkr .spanls {
       font-size: 0.14rem;
       font-family: '宋体';
-      color: #fff; }
+      color: #fff;
+      display: none; }
     .xxk .xxks .xxkr .ps2 {
       font-size: 0.12rem;
-      color: #98CEE5; }
+      color: #98CEE5;
+      display: none; }
 
 .lb {
   width: 100%;
@@ -207,7 +209,7 @@ body {
     justify-content: center; }
   .lb .lbk .lbs .zi h2 {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 0.24rem;
     font-family: '微软雅黑';
     margin-left: 0.15rem; }
   .lb .lbk .lbs .zi span {

@@ -1,5 +1,3 @@
-
-
 *{
 	margin:0;
 	padding:0;
@@ -42,7 +40,7 @@ body{
 }
 
 
-.denglu{
+.xiugai{
 	width:100%;
 	height:4.35rem;
 	background: #29A6DC;
@@ -57,7 +55,7 @@ body{
 		background-size: 0.46rem 0.46rem;
 
 	}
-	.denglus{
+	.xiugais{
 		width:80%;
 		height:4.35rem;
 		display: flex;
@@ -119,12 +117,13 @@ body{
 			}
 		}
 	}
+
 	input{
 		width:80%;
 		height:0.85rem;
 		align-content:center;
 		border-radius: 40px;
-		background:url(../images/name.png)no-repeat;
+		background:url(../images/poser.png)no-repeat;
 		margin-left: 10%;
 		margin-top: 0.40rem;
 		color:#B0B0B0;
@@ -141,6 +140,7 @@ body{
 		background-position:18px;
 			
 	}
+
 	.contend{
 		width:80%;
 		height:0.9rem;
@@ -205,4 +205,5 @@ body{
 		}
 
 	}
-}
+
+}	

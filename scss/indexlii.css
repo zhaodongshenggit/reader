@@ -35,27 +35,27 @@ body {
   height: 0.4rem;
   background: #29A6DC; }
 
-.denglu {
+.zhaohui {
   width: 100%;
-  height: 4.35rem;
+  height: 3.2rem;
   background: #29A6DC;
   padding: 0.24rem;
   display: flex;
   /*align-items:center;*/ }
-  .denglu .fanhui {
+  .zhaohui .fanhui {
     width: 10%;
     height: 0.48rem;
     background: url(../images/return.png) no-repeat;
     background-position: center center;
     background-size: 0.46rem 0.46rem; }
-  .denglu .denglus {
+  .zhaohui .zhaohuis {
     width: 80%;
-    height: 4.35rem;
+    height: 3.2rem;
     display: flex;
     align-content: center;
     flex-direction: column;
     margin-top: 4px; }
-    .denglu .denglus h2 {
+    .zhaohui .zhaohuis h2 {
       width: 100%;
       text-align: center;
       color: #F2F2F2;
@@ -63,7 +63,7 @@ body {
       font-weight: normal;
       font-size: 18px;
       /*letter-spacing: 0.5px;*/ }
-    .denglu .denglus span {
+    .zhaohui .zhaohuis span {
       width: 100%;
       text-align: center;
       color: #F2F2F2;
@@ -74,13 +74,13 @@ body {
 
 .content {
   width: 100%;
-  height: 8.6rem;
+  height: 9.8rem;
   background: #F2F2F2; }
   .content .contents {
     width: 100%;
     height: 2.7rem;
     margin: 0 auto;
-    padding-top: 1.44rem;
+    padding-top: 1.13rem;
     padding-left: 0.38rem;
     padding-right: 0.38rem; }
     .content .contents p {
@@ -113,10 +113,52 @@ body {
     padding-left: 55px;
     border: 1px solid #4C9AFB;
     padding-right: 45px; }
-  .content .inputs {
+  .content input:nth-child(2) {
+    margin-top: 0.4rem; }
+  .content .inputd {
     background: url(../images/poser.png) no-repeat;
     background-size: 0.46rem 0.46rem;
-    background-position: 18px; }
+    background-position: 18px;
+    margin-top: 0.4rem; }
+  .content .aa {
+    width: 47%;
+    height: 0.85rem;
+    align-content: center;
+    border-radius: 40px;
+    margin-left: 10%;
+    margin-top: 0.40rem;
+    border: 1px solid #4C9AFB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    float: left; }
+    .content .aa span {
+      color: #71CDFD;
+      font-size: 13px;
+      text-align: center;
+      /*line-height: 0.85rem;*/ }
+    .content .aa p {
+      color: #D7D7D7;
+      font-size: 12px;
+      /*line-height: 0.85rem;*/ }
+  .content .bb {
+    width: 27%;
+    height: 0.85rem;
+    border-radius: 40px;
+    margin-right: 10%;
+    margin-top: 0.40rem;
+    border: 1px solid #4C9AFB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    float: right; }
+    .content .bb span {
+      color: #71CDFD;
+      font-size: 13px;
+      text-align: center;
+      /*line-height: 0.85rem;*/ }
   .content .contend {
     width: 80%;
     height: 0.9rem;
@@ -125,28 +167,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; }
-    .content .contend .contenda {
-      width: 40%;
-      height: 100%;
-      background: url(../images/ma.png) no-repeat;
-      background-size: 0.25rem 0.25rem;
-      /*padding-right: 20px;*/
-      background-position: center left 0.3rem; }
-      .content .contend .contenda span {
-        font-size: 12px;
-        font-family: "宋体";
-        color: #6F6F6F;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 0.9rem; }
     .content .contend .contendb {
       width: 40%;
       height: 100%;
       background: url(../images/me.png) no-repeat;
       background-size: 0.25rem 0.25rem;
       /*padding-right: 20px;*/
-      background-position: center left 0.3rem; }
+      background-position: center left 0.3rem;
+      float: left; }
       .content .contend .contendb span {
         font-size: 12px;
         font-family: "宋体";
@@ -164,7 +192,7 @@ body {
     margin: 0 auto;
     border-radius: 40px;
     background: #3ABFFD;
-    margin-top: 0.7rem; }
+    margin-top: 0.25rem; }
     .content .dibu a {
       font-family: "宋体";
       font-size: 13px;

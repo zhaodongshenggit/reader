@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Helvetica;
+  box-sizing: border-box;
+  letter-spacing: 0.09em; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+.tou {
+  width: 100%;
+  height: 1.4rem;
+  background: #29A6DC; }
+  .tou .ztl {
+    width: 100%;
+    height: 0.4rem;
+    /*background:   url(../images/top.png) no-repeat center center/cover;*/ }
+  .tou .head {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    padding: 15px 15px 0; }
+    .tou .head .fh {
+      width: 0.44rem;
+      height: 0.44rem;
+      background: url(../images/return.png) no-repeat center center/cover;
+      border-radius: 50%;
+      /*margin:0 13px 0;*/
+      align-items: center; }
+
+.nr {
+  width: 94%;
+  height: 5.21rem;
+  margin: 5px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 1px 1px #F8FBFF inset; }
+  .nr .nr-1 {
+    width: 100%;
+    height: 4.3rem;
+    box-shadow: 0 0 10px #F2F7FF;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .nr .nr-1 .logo1-a {
+      width: 100%;
+      height: 3.26rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .nr .nr-1 .logo1-a .logo1-a-a {
+        width: 38%;
+        height: 3.26rem;
+        padding: 30px 15px 0; }
+      .nr .nr-1 .logo1-a .box {
+        width: 100%;
+        height: 2.03rem;
+        display: block; }
+      .nr .nr-1 .logo1-a .logo1-a-b {
+        width: 56%;
+        height: 3.26rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        padding-top: 30px; }
+      .nr .nr-1 .logo1-a .logo1-a-b-a {
+        width: 100%;
+        height: .3rem; }
+        .nr .nr-1 .logo1-a .logo1-a-b-a h5 {
+          font-size: .28rem;
+          color: 313131; }
+      .nr .nr-1 .logo1-a .logo1-a-b-b {
+        width: 100%;
+        height: .16rem;
+        position: relative; }
+        .nr .nr-1 .logo1-a .logo1-a-b-b .wxm-sp1 {
+          width: 10%;
+          height: .16rem;
+          font-size: .16rem;
+          color: #3F3F3F;
+          font-weight: 700;
+          position: absolute;
+          left: 0;
+          top: 0; }
+        .nr .nr-1 .logo1-a .logo1-a-b-b .wxm-sp4 {
+          width: 10%;
+          height: .14rem;
+          font-size: .16rem;
+          color: #444444;
+          position: absolute;
+          left: 13%;
+          top: 0; }
+      .nr .nr-1 .logo1-a .logo1-a-b-c {
+        width: 100%;
+        height: .18rem;
+        position: relative; }
+        .nr .nr-1 .logo1-a .logo1-a-b-c .wxm-sp2 {
+          width: 100%;
+          height: .18rem;
+          font-size: .18rem;
+          color: #595959;
+          position: absolute;
+          left: 0;
+          top: 0; }
+      .nr .nr-1 .logo1-a .logo1-a-b-e {
+        width: 100%;
+        height: .25rem;
+        display: flex; }
+        .nr .nr-1 .logo1-a .logo1-a-b-e img {
+          width: 1.35rem;
+          height: .25rem;
+          display: block; }
+      .nr .nr-1 .logo1-a .logo1-a-b-f {
+        width: 100%;
+        height: .62rem; }
+        .nr .nr-1 .logo1-a .logo1-a-b-f p {
+          width: 100%;
+          height: .62rem;
+          font-size: .16rem;
+          color: #C5C5C5;
+          letter-spacing: .035rem; }
+      .nr .nr-1 .logo1-a .logo1-a-b-g {
+        width: 100%;
+        height: .33rem;
+        display: flex; }
+        .nr .nr-1 .logo1-a .logo1-a-b-g button {
+          width: .86rem;
+          height: .33rem;
+          display: block;
+          border-radius: .33rem;
+          background: #67E479;
+          color: #fff;
+          font-size: .18rem;
+          text-align: center;
+          line-height: .33rem;
+          outline: none;
+          border: 0;
+          margin-right: .15rem; }
+    .nr .nr-1 .logo1-b {
+      width: 100%;
+      height: .53rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .nr .nr-1 .logo1-b .logo1-b-a {
+        width: 45%;
+        height: .53rem;
+        padding-left: 1rem;
+        font-size: .24rem;
+        line-height: .53rem;
+        color: #666666;
+        background: url(../images/books.png) no-repeat center center/contain;
+        background-size: .45rem .45rem;
+        background-position: .4rem 0rem; }
+      .nr .nr-1 .logo1-b .logo1-b-b {
+        width: 35%;
+        height: .38rem;
+        padding-left: 1rem;
+        font-size: .24rem;
+        line-height: .53rem;
+        color: #666666;
+        background: url(../images/wjj.png) no-repeat center center/contain;
+        background-size: .45rem .45rem;
+        background-position: .4rem 0rem; }
+    .nr .nr-1 .logo1-c {
+      width: 39%;
+      height: .72rem;
+      position: relative; }
+      .nr .nr-1 .logo1-c .yd {
+        width: 100%;
+        height: .72rem;
+        display: block;
+        position: absolute;
+        left: 80%;
+        bottom: 0;
+        background: #29A6DC; }
+        .nr .nr-1 .logo1-c .yd span {
+          line-height: 72rem;
+          font-size: 16px; }

@@ -1,0 +1,222 @@
+@charset "UTF-8";
+.yq-status .shuping .sp-tu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+.foot .footer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+html {
+  font-size: 100px; }
+
+@media (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 136.53333px; } }
+
+body {
+  font-size: 16px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "苹方","SanFranciscoDisplay Regular",sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none; }
+
+img {
+  border: 0; }
+
+.row {
+  min-height: 1px; }
+  .row::after {
+    content: '';
+    clear: both; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  float: left;
+  position: relative; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+.yq-status {
+  padding: 0 0.24rem;
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative; }
+  .yq-status .yq_return {
+    width: 0.46rem;
+    height: 0.46rem;
+    background: url(../images/return.png) no-repeat center center;
+    background-size: 0.46rem,0.46rem;
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0.16rem; }
+  .yq-status .shuping {
+    width: 2rem;
+    height: 1rem;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 0.1rem;
+    padding-left: 0.1rem; }
+    .yq-status .shuping h3 {
+      font-size: 0.36rem;
+      color: #fff;
+      text-align: center; }
+    .yq-status .shuping .sp-tu {
+      width: 0.42rem;
+      height: 0.04rem;
+      background: url(../images/yq-02.jpg) no-repeat;
+      background-size: contain; }
+    .yq-status .shuping h4 {
+      margin-top: 0.05rem;
+      font-size: 0.18rem;
+      text-align: center; }
+
+.spcontent {
+  width: 6.95rem;
+  height: 1.65rem;
+  margin: 0.2rem auto;
+  border-radius: 5px;
+  padding-top: 0.3rem;
+  padding-left: 0.15rem;
+  box-shadow: 0 0 0.05rem #f2f7ff; }
+  .spcontent .spcontent-left {
+    width: 0.85rem;
+    height: 0.85rem;
+    background: url(../images/yq-08.png) no-repeat center center;
+    background-size: cover;
+    float: left; }
+  .spcontent .spcontent-right {
+    width: 5.55rem;
+    height: 1.28rem;
+    float: left;
+    margin-left: 0.25rem; }
+    .spcontent .spcontent-right .spcontent-zi {
+      width: 5.35rem;
+      height: 0.77rem;
+      font-size: 0.22rem;
+      border-bottom: 1px dotted #a0a0a0; }
+    .spcontent .spcontent-right .spcontent-time {
+      width: 2rem;
+      height: 0.4rem;
+      margin-top: 0.05rem;
+      float: left;
+      font-size: 0.16rem;
+      line-height: 0.4rem; }
+      .spcontent .spcontent-right .spcontent-time .spcontent-yuan {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 50%;
+        box-shadow: 0 0 5px #898bff;
+        float: left;
+        margin-left: 0.06rem;
+        margin-right: 0.1rem; }
+        .spcontent .spcontent-right .spcontent-time .spcontent-yuan .shijian {
+          width: 0.35rem;
+          height: 0.35rem;
+          background: url(../images/yq-09.png) no-repeat center center;
+          background-size: cover;
+          margin-left: 0.03rem;
+          margin-top: 0.02rem; }
+    .spcontent .spcontent-right .spcontent-love {
+      width: 2rem;
+      height: 0.4rem;
+      margin-top: 0.05rem;
+      float: right;
+      font-size: 0.16rem;
+      line-height: 0.4rem; }
+      .spcontent .spcontent-right .spcontent-love .spcontent-yuan1 {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 50%;
+        box-shadow: 0 0 5px #898bff;
+        margin-right: 0.1rem;
+        float: left; }
+        .spcontent .spcontent-right .spcontent-love .spcontent-yuan1 .love {
+          width: 0.35rem;
+          height: 0.35rem;
+          margin-left: 0.06rem;
+          background: url(../images/yq-10.png) no-repeat center center;
+          background-size: cover; }
+
+.foot {
+  width: 100%;
+  height: 1.29rem;
+  background: #151c2b;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+  .foot .footer {
+    width: 1.46rem;
+    height: 0.46rem;
+    background: url(../images/yq-03.png) no-repeat;
+    background-size: contain; }

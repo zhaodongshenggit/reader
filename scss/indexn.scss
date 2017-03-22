@@ -1,0 +1,218 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+  	font-family:Helvetica;
+  	box-sizing:border-box;
+  	letter-spacing:0.09em;
+}
+$lib:320px,360px,375px,414px;
+html{
+	@each $name in $lib{
+		@media screen and (min-width: $name){
+			font-size:100 * ($name/750);
+		}
+	}
+}
+.tou{
+	width: 100%;
+	height: 1.4rem;
+	background: #29A6DC;
+	.ztl{
+		width: 100%;
+		height: 0.4rem;
+		/*background:   url(../images/top.png) no-repeat center center/cover;*/
+	}
+	.head{
+		width: 100%;
+		height: 1rem;
+		display:flex;
+    	padding: 15px 15px 0;
+
+		.fh{
+			width:0.44rem;
+    		height:0.44rem;
+    		background: url(../images/return.png) no-repeat center center/cover;
+   	 		border-radius:50%;
+    		/*margin:0 13px 0;*/
+    		align-items:center;
+		}
+	}
+}
+.nr{
+	width: 94%;
+	height: 5.21rem;
+	margin: 5px auto; 
+	background: #FFFFFF;
+	box-shadow: 1px 1px 1px 1px #F8FBFF inset;
+	.nr-1{
+		width: 100%;
+		height: 4.3rem;
+		box-shadow: 0 0 10px #F2F7FF;
+        position: relative;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+                .logo1-a{
+        	width: 100%;
+        	height: 3.26rem;
+        	display: flex;
+            flex-wrap:wrap;
+            justify-content:space-between;
+        	.logo1-a-a{
+        		width: 38%;
+        		height: 3.26rem;
+        		padding: 30px 15px 0;
+        	}
+        	.box{
+        		width: 100%;
+        		height: 2.03rem;
+        		display: block;
+        	}
+        	.logo1-a-b{
+        		width: 56%;
+        		height: 3.26rem;
+                display: flex;
+                flex-wrap:wrap;
+                align-content:space-between;
+                padding-top: 30px;
+            }
+            .logo1-a-b-a{
+                width: 100%;
+                height: .3rem;
+                h5{
+                    font-size: .28rem;
+                    color: 313131;
+                }
+            }
+            .logo1-a-b-b{
+                width: 100%;
+                height: .16rem;
+                position: relative;
+                .wxm-sp1{
+                    width: 10%;
+                    height: .16rem;
+                    font-size: .16rem;
+                    color: #3F3F3F;
+                    font-weight: 700;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+                .wxm-sp4{
+                    width: 10%;
+                    height: .14rem;
+                    font-size: .16rem;
+                    color: #444444;
+                    position: absolute;
+                    left: 13%;
+                    top: 0;
+                }
+            }
+            .logo1-a-b-c{
+                width: 100%;
+                height: .18rem;
+                position: relative;
+                .wxm-sp2{
+                    width: 100%;
+                    height: .18rem;
+                    font-size: .18rem;
+                    color: #595959;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+            .logo1-a-b-e{
+                width: 100%;
+                height: .25rem;
+                display: flex;
+                img{
+                    width: 1.35rem;
+                    height: .25rem;
+                    display: block;                    
+                }
+            }
+            .logo1-a-b-f{
+                width: 100%;
+                height: .62rem;
+                p{
+                    width: 100%;
+                    height: .62rem;
+                    font-size: .16rem;
+                    color: #C5C5C5;
+                    letter-spacing:.035rem;
+                }
+            }
+            .logo1-a-b-g{
+                width: 100%;
+                height: .33rem;
+                display: flex;
+                button{
+                    width: .86rem;
+                    height: .33rem;
+                    display: block;
+                    border-radius: .33rem;
+                    background:#67E479;
+                    color: #fff;
+                    font-size: .18rem;
+                    text-align: center;
+                    line-height: .33rem;
+                    outline: none;
+                    border: 0;
+                    margin-right: .15rem;
+                }
+            }
+        }
+        .logo1-b{
+            width: 100%;
+            height: .53rem;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content:space-between;
+            .logo1-b-a{
+                width: 45%;
+                height: .53rem;
+                padding-left: 1rem;
+                font-size: .24rem;
+                line-height: .53rem;
+                color: #666666;
+                background: url(../images/books.png) no-repeat center center/contain ;
+                background-size: .45rem .45rem;
+                background-position: .4rem 0rem;
+            }
+            .logo1-b-b{
+                width: 35%;
+                height: .38rem;
+                padding-left: 1rem;
+                font-size: .24rem;
+                line-height: .53rem;
+                color: #666666;
+                background: url(../images/wjj.png) no-repeat center center/contain ;
+                background-size: .45rem .45rem;
+                background-position: .4rem 0rem;
+            }
+        }
+            .logo1-c{
+            	width: 39%;
+            	height: .72rem;
+            	position: relative;
+            	.yd{
+                	width: 100%;
+                	height:.72rem;
+                	display: block; 
+                	position: absolute;
+                	left: 80%;
+                	bottom: 0;
+                	background:#29A6DC;
+                	span{
+                		line-height: 72rem;
+                		font-size: 16px;
+						
+                	}
+            	}
+        	}
+    
+	}
+}
